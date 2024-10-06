@@ -1,0 +1,43 @@
+# Ignore the entire Visual Studio and .NET build environment
+# StreamingAPI - .NET related ignores
+StreamingAPI/bin/
+StreamingAPI/obj/
+StreamingAPI/.vs/
+StreamingAPI/.vscode/
+StreamingAPI/*.user
+StreamingAPI/*.suo
+StreamingAPI/*.rsuser
+StreamingAPI/*.sln.docstates
+
+# Ignore user-specific files
+StreamingAPI/*.csproj.user
+StreamingAPI/.idea/
+
+# Ignore logs, NuGet packages, and build results
+StreamingAPI/logs/
+StreamingAPI/*.log
+StreamingAPI/.nuget/
+StreamingAPI/packages/
+
+# Ignore lock files and generated files
+StreamingAPI/project.lock.json
+StreamingAPI/project.fragment.lock.json
+
+# Ignore React environment files
+# StreamingApp - React related ignores
+StreamingApp/node_modules/
+StreamingApp/build/
+StreamingApp/.env.local
+StreamingApp/.env.development.local
+StreamingApp/.env.test.local
+StreamingApp/.env.production.local
+StreamingApp/npm-debug.log*
+StreamingApp/yarn-debug.log*
+StreamingApp/yarn-error.log*
+StreamingApp/.parcel-cache/
+StreamingApp/.next/
+
+# Ignore editor and IDE files
+*.DS_Store
+*.vscode/
+*.idea/
